@@ -4,5 +4,6 @@
 
 ***
 ## 👯‍♂️ 스터디 멤버
-[yezy](https://github.com/yezyaa)
-[chaeyeon](https://github.com/yeooniyeoon)
+- [yezy](https://github.com/yezyaa)
+- 
+- [chaeyeon](https://github.com/yeooniyeoon)
