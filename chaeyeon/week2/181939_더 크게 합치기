@@ -1,0 +1,15 @@
+public static int solution(int a, int b) {
+        int answer = 0;
+        int result1 = 0, result2 = 0;
+        String str = Integer.toString(a);
+        str += Integer.toString(b);
+        result1 = Integer.parseInt(str);
+
+        str = Integer.toString(b);
+        str += Integer.toString(a);
+        result2 = Integer.parseInt(str);
+
+        answer = result1 > result2 ? result1 : result2;
+
+        return answer;
+    }
