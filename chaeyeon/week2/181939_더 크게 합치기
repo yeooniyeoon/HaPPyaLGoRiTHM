@@ -1,15 +1,9 @@
-public static int solution(int a, int b) {
-        int answer = 0;
-        int result1 = 0, result2 = 0;
-        String str = Integer.toString(a);
-        str += Integer.toString(b);
-        result1 = Integer.parseInt(str);
+class Solution {
+    public int solution(int a, int b) {
+        int str1, str2;
+        str1 = Integer.parseInt(String.valueOf(a) + String.valueOf(b));
+        str2 = Integer.parseInt(String.valueOf(b) + String.valueOf(a));
 
-        str = Integer.toString(b);
-        str += Integer.toString(a);
-        result2 = Integer.parseInt(str);
-
-        answer = result1 > result2 ? result1 : result2;
-
-        return answer;
+        return str1 > str2 ? str1 : str2;
     }
+}
