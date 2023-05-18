@@ -1,0 +1,9 @@
+class Solution {
+    public int solution(int a, int b) {
+        int str1, str2;
+        str1 = Integer.parseInt(String.valueOf(a) + String.valueOf(b));
+        str2 = 2 * a * b;
+
+        return str1 > str2 ? str1 : str2;
+    }
+}
