@@ -1,0 +1,12 @@
+class Solution {
+    public int solution(int[] num_list) {
+        int answer = 0;
+        int sumOfMultiple = 1;
+        int sumOfPlus = 0;
+        for (int i = 0; i < num_list.length; i++){
+            sumOfMultiple *= num_list[i];
+            sumOfPlus += num_list[i];
+        }
+        return sumOfMultiple < sumOfPlus * sumOfPlus ? 1 : 0;
+    }
+}
