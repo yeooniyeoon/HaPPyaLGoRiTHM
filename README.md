@@ -8,9 +8,11 @@
 - [chaeyeon](https://github.com/yeooniyeoon)
 
 ## 🗓 기간
-~~2023년 5월 11일~2023년 7월 28일 (총 12주)~~
+~~2023.05.11~2023.07.28~~
+
+2023.08.02 ~
 
 HaPPyaLGoRiTHM naver die ...
 
-## ☺ HaPPyaLGoRiTHM
+## 😊 HaPPyaLGoRiTHM
 
